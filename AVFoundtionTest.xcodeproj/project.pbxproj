@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EB6DF35F1B6A152800E5DE71 /* GetQRCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB6DF35E1B6A152800E5DE71 /* GetQRCodeViewController.m */; };
 		EBDAA7271B69E6A70051AC3A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EBDAA7261B69E6A70051AC3A /* main.m */; };
 		EBDAA72A1B69E6A70051AC3A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EBDAA7291B69E6A70051AC3A /* AppDelegate.m */; };
 		EBDAA72D1B69E6A70051AC3A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBDAA72C1B69E6A70051AC3A /* ViewController.m */; };
@@ -14,6 +15,7 @@
 		EBDAA7321B69E6A70051AC3A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBDAA7311B69E6A70051AC3A /* Images.xcassets */; };
 		EBDAA7351B69E6A70051AC3A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EBDAA7331B69E6A70051AC3A /* LaunchScreen.xib */; };
 		EBDAA7411B69E6A70051AC3A /* AVFoundtionTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EBDAA7401B69E6A70051AC3A /* AVFoundtionTestTests.m */; };
+		EBDAA74B1B69E7560051AC3A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBDAA74A1B69E7560051AC3A /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EB6DF35D1B6A152800E5DE71 /* GetQRCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetQRCodeViewController.h; sourceTree = "<group>"; };
+		EB6DF35E1B6A152800E5DE71 /* GetQRCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetQRCodeViewController.m; sourceTree = "<group>"; };
 		EBDAA7211B69E6A70051AC3A /* AVFoundtionTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AVFoundtionTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBDAA7251B69E6A70051AC3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EBDAA7261B69E6A70051AC3A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +44,7 @@
 		EBDAA73A1B69E6A70051AC3A /* AVFoundtionTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AVFoundtionTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBDAA73F1B69E6A70051AC3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EBDAA7401B69E6A70051AC3A /* AVFoundtionTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVFoundtionTestTests.m; sourceTree = "<group>"; };
+		EBDAA74A1B69E7560051AC3A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBDAA74B1B69E7560051AC3A /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +69,7 @@
 		EBDAA7181B69E6A70051AC3A = {
 			isa = PBXGroup;
 			children = (
+				EBDAA74A1B69E7560051AC3A /* AVFoundation.framework */,
 				EBDAA7231B69E6A70051AC3A /* AVFoundtionTest */,
 				EBDAA73D1B69E6A70051AC3A /* AVFoundtionTestTests */,
 				EBDAA7221B69E6A70051AC3A /* Products */,
@@ -89,6 +96,8 @@
 				EBDAA7311B69E6A70051AC3A /* Images.xcassets */,
 				EBDAA7331B69E6A70051AC3A /* LaunchScreen.xib */,
 				EBDAA7241B69E6A70051AC3A /* Supporting Files */,
+				EB6DF35D1B6A152800E5DE71 /* GetQRCodeViewController.h */,
+				EB6DF35E1B6A152800E5DE71 /* GetQRCodeViewController.m */,
 			);
 			path = AVFoundtionTest;
 			sourceTree = "<group>";
@@ -220,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EBDAA72D1B69E6A70051AC3A /* ViewController.m in Sources */,
+				EB6DF35F1B6A152800E5DE71 /* GetQRCodeViewController.m in Sources */,
 				EBDAA72A1B69E6A70051AC3A /* AppDelegate.m in Sources */,
 				EBDAA7271B69E6A70051AC3A /* main.m in Sources */,
 			);
@@ -416,6 +426,7 @@
 				EBDAA7461B69E6A70051AC3A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EBDAA7471B69E6A70051AC3A /* Build configuration list for PBXNativeTarget "AVFoundtionTestTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +435,7 @@
 				EBDAA7491B69E6A70051AC3A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
