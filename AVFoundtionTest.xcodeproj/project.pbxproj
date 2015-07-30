@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		EB6DF35F1B6A152800E5DE71 /* GetQRCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB6DF35E1B6A152800E5DE71 /* GetQRCodeViewController.m */; };
+		EBD79B5D1B6A1F4900E093DD /* GeneragteQrCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD79B5C1B6A1F4900E093DD /* GeneragteQrCodeViewController.m */; };
+		EBD79B5F1B6A256100E093DD /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBD79B5E1B6A256100E093DD /* CoreImage.framework */; };
 		EBDAA7271B69E6A70051AC3A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EBDAA7261B69E6A70051AC3A /* main.m */; };
 		EBDAA72A1B69E6A70051AC3A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EBDAA7291B69E6A70051AC3A /* AppDelegate.m */; };
 		EBDAA72D1B69E6A70051AC3A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBDAA72C1B69E6A70051AC3A /* ViewController.m */; };
@@ -31,6 +33,9 @@
 /* Begin PBXFileReference section */
 		EB6DF35D1B6A152800E5DE71 /* GetQRCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetQRCodeViewController.h; sourceTree = "<group>"; };
 		EB6DF35E1B6A152800E5DE71 /* GetQRCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetQRCodeViewController.m; sourceTree = "<group>"; };
+		EBD79B5B1B6A1F4900E093DD /* GeneragteQrCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeneragteQrCodeViewController.h; sourceTree = "<group>"; };
+		EBD79B5C1B6A1F4900E093DD /* GeneragteQrCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeneragteQrCodeViewController.m; sourceTree = "<group>"; };
+		EBD79B5E1B6A256100E093DD /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
 		EBDAA7211B69E6A70051AC3A /* AVFoundtionTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AVFoundtionTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBDAA7251B69E6A70051AC3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EBDAA7261B69E6A70051AC3A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -52,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBD79B5F1B6A256100E093DD /* CoreImage.framework in Frameworks */,
 				EBDAA74B1B69E7560051AC3A /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -69,6 +75,7 @@
 		EBDAA7181B69E6A70051AC3A = {
 			isa = PBXGroup;
 			children = (
+				EBD79B5E1B6A256100E093DD /* CoreImage.framework */,
 				EBDAA74A1B69E7560051AC3A /* AVFoundation.framework */,
 				EBDAA7231B69E6A70051AC3A /* AVFoundtionTest */,
 				EBDAA73D1B69E6A70051AC3A /* AVFoundtionTestTests */,
@@ -98,6 +105,8 @@
 				EBDAA7241B69E6A70051AC3A /* Supporting Files */,
 				EB6DF35D1B6A152800E5DE71 /* GetQRCodeViewController.h */,
 				EB6DF35E1B6A152800E5DE71 /* GetQRCodeViewController.m */,
+				EBD79B5B1B6A1F4900E093DD /* GeneragteQrCodeViewController.h */,
+				EBD79B5C1B6A1F4900E093DD /* GeneragteQrCodeViewController.m */,
 			);
 			path = AVFoundtionTest;
 			sourceTree = "<group>";
@@ -228,6 +237,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBD79B5D1B6A1F4900E093DD /* GeneragteQrCodeViewController.m in Sources */,
 				EBDAA72D1B69E6A70051AC3A /* ViewController.m in Sources */,
 				EB6DF35F1B6A152800E5DE71 /* GetQRCodeViewController.m in Sources */,
 				EBDAA72A1B69E6A70051AC3A /* AppDelegate.m in Sources */,
